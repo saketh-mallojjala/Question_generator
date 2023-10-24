@@ -24,14 +24,14 @@ def extract_text_from_pdf(pdf_path, page_numbers=None):
     return extracted_text
 
 
-def save_text_to_file(text, file_path):
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(text)
+# def save_text_to_file(text, file_path):
+#     with open(file_path, 'w', encoding='utf-8') as file:
+#         file.write(text)
 
 
-pdf_path = 'Big Mac Index.pdf'
+# pdf_path = 'Big Mac Index.pdf'
 
-extracted_text = extract_text_from_pdf(pdf_path)
-print('Extracted Text:', extracted_text)
-output_file_path = 'Big Mac Index.txt'
-save_text_to_file(extracted_text, output_file_path)
+# extracted_text = extract_text_from_pdf(pdf_path)
+# print('Extracted Text:', extracted_text)
+# output_file_path = 'Big Mac Index.txt'
+# save_text_to_file(extracted_text, output_file_path)
